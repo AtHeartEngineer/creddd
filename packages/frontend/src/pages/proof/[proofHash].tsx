@@ -97,12 +97,18 @@ export default function ProofPage() {
   return (
     <>
       <Head>
-        <meta property="og:image" content="/larger-contract-deployer" />
+        <meta
+          property="og:image"
+          content="https://cred-frontend-r1h4fw4h9-personaelabs.vercel.app/larger-contract-deployer.png"
+        />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="500" />
         <meta property="og:image:height" content="500" />
         <meta name="twitter:image" content="image/png" />
-        <meta name="twitter:image:type" content="/larger-contract-deployer" />
+        <meta
+          name="twitter:image:type"
+          content="https://cred-frontend-r1h4fw4h9-personaelabs.vercel.app/larger-contract-deployer.png"
+        />
         <meta name="twitter:image:width" content="500" />
         <meta name="twitter:image:height" content="500" />
       </Head>
