@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { MainButton } from '@/components/MainButton';
 import { Attribute, AttributeCard } from '@/components/global/AttributeCard';
 import { useGetProof } from '@/hooks/useGetProof';
@@ -106,6 +107,13 @@ export default function ProofPage() {
         <div className="flex  justify-center">
           {verified === false ? <p>Verification failed!</p> : <> </>}
         </div>
+        <Image
+          src="/larger-contract-deployer.png"
+          className="mt-4"
+          width={500}
+          height={500}
+          alt="Picture of the author"
+        />
       </div>
     </>
   );
