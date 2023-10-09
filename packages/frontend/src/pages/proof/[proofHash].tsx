@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from 'next/head';
 import { MainButton } from '@/components/MainButton';
 import { Attribute, AttributeCard } from '@/components/global/AttributeCard';
 import { useGetProof } from '@/hooks/useGetProof';
@@ -95,6 +96,16 @@ export default function ProofPage() {
 
   return (
     <>
+      <Head>
+        <meta property="og:image" content="/larger-contract-deployer" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="500" />
+        <meta name="twitter:image" content="image/png" />
+        <meta name="twitter:image:type" content="/larger-contract-deployer" />
+        <meta name="twitter:image:width" content="500" />
+        <meta name="twitter:image:height" content="500" />
+      </Head>
       <div className="w-full max-w-sm">
         <AttributeCard attributes={proofAttributes} />
         <div className="flex  justify-center">
