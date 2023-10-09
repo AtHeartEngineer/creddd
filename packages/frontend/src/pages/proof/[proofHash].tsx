@@ -104,13 +104,16 @@ export default function ProofPage() {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="500" />
         <meta property="og:image:height" content="500" />
-        <meta name="twitter:image" content="image/png" />
+        <meta property="og:description" content="Top 1% contract deployer" />
         <meta
-          name="twitter:image:type"
+          name="twitter:image"
           content="https://cred-frontend-r1h4fw4h9-personaelabs.vercel.app/larger-contract-deployer.png"
         />
+        <meta name="twitter:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image:width" content="500" />
         <meta name="twitter:image:height" content="500" />
+        <meta property="twitter:title" content="Top 1% contract deployer" />
       </Head>
       <div className="w-full max-w-sm">
         <AttributeCard attributes={proofAttributes} />
